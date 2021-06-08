@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'konnect3';
+  inputvar='hi i am prantes';
+  constructor(){
+
+  }
+  getdata(value:any){
+    console.log(value)
+
+  }
 }
+
