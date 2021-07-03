@@ -6,6 +6,7 @@ import { Component, OnInit ,Input,Output,EventEmitter} from '@angular/core';
   styleUrls: ['./childern.component.css']
 })
 export class ChildernComponent implements OnInit {
+  name:any=true
     num:any='';
   @Input() mystu:string='';
  @Output() num1:EventEmitter<string>=new EventEmitter()
